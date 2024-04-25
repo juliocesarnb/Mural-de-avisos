@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Mural de Avisos</title>
+</head>
+<body>
+    <div>
+        <h3 class="p-5 text-4xl">Novo Post</h3>
+        <div class="p-5">
+            <input class="bg-gray-200 rounded-xl w-62 h-7 p-4" id="title" placeholder="Título">
+            <input class="bg-gray-200 rounded-xl w-62 h-7 p-4" id="desc" placeholder="Descrição">
+            <button class="bg-blue-600 texts-white p-2 rounded-xl w-32 pointer hover:bg-blue-300" onclick="newPost()">Salvar</button>
+        </div>
+
+        <h2 class="mt-2 text-3xl font-white p-5">Mural</h2>
+        
+        <div class="p-2" id="posts">
+            
+        </div>
+    </div>
+    <script src="./scripts/script.js"></script>
+</body>
+</html> 
